@@ -5,12 +5,12 @@ db.produtos.updateMany(
 
 db.produtos.updateOne(
   { nome: "Big Mac" },
-  { $set: { "vendasPorDia.3": 60 }},
+  { $set: { "vendasPorDia.3": 60 } },
 );
 
 db.produtos.updateMany(
   { tags: { $in: ["bovino"] } },
-  { $set: { "vendasPorDia.6": 120 }},
+  { $set: { "vendasPorDia.6": 120 } },
 );
 
 db.produtos.find(
