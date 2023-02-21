@@ -5,5 +5,10 @@
 .vscode
 
 # BSON data files
-assets/produtos.bson
+assets/*
 node_modules
+
+package.json
+package-lock.json
+.eslintrc.json
+scripts/*
